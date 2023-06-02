@@ -13,15 +13,11 @@
     "rows": ["C6", "B6", "B5", "B4", "D7"]
   },
   "diode_direction": "COL2ROW",
-  "indicators": {
-    "caps_lock": "D6",
-    "num_lock": "D4"
-  },
   "ws2812": {
     "pin": "E6"
   },
   "bootmagic": {
-    "matrix": [2, 0]
+    "matrix": [0, 0]
   },
   "processor": "atmega32u4",
   "bootloader": "atmel-dfu",
@@ -31,7 +27,7 @@
     "LAYOUT_chains": "LAYOUT_alice"
   },
   "layouts": {
-    "LAYOUT_alice_split_bs": {
+    "LAYOUT_chains_split_bs": {
       "layout": [
 
         [
