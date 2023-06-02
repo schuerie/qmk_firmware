@@ -4,9 +4,9 @@
   "url": "",
   "maintainer": "schuerie",
   "usb": {
-    "vid": "0x5342",
-    "pid": "0x0004",
-    "device_version": "0.0.1"
+    "vid": "0x0000",
+    "pid": "0x0001",
+    "device_version": "1.0.0"
   },
   "matrix_pins": {
     "cols": ["F0", "F1", "F4", "F5", "F6", "F7", "C7", "D6", "D4", "D6", "D3", "D2", "B7", "B3", "B2"],
@@ -24,13 +24,11 @@
   "layout_aliases": {
     "LAYOUT_all": "LAYOUT_alice_split_bs",
     "LAYOUT_chains_split_bs": "LAYOUT_alice_split_bs",
-    "LAYOUT_chains": "LAYOUT_alice"
+    "LAYOUT_chains": "LAYOUT_alice" 
   },
   "layouts": {
-    "LAYOUT_chains_split_bs": {
+    "LAYOUT_alice_split_bs": {
       "layout": [
-
-        [
           {"matrix": [0, 0], "x": 0, "y": 0},
           {"matrix": [1, 0], "x": 1, "y": 0},
           {"matrix": [2, 0], "x": 2, "y": 0},
@@ -103,7 +101,7 @@
           {"matrix": [14, 4], "x": 14, "y": 4}
         ]
         
-      ]
+      
     }
   }
 }
